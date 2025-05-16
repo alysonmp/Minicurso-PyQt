@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'interface.ui'
+# Form implementation generated from reading ui file '.\interface.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -21,12 +21,12 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.stackedWidget = QtWidgets.QStackedWidget(parent=self.centralwidget)
-        self.stackedWidget.setGeometry(QtCore.QRect(49, 40, 1011, 581))
+        self.stackedWidget.setGeometry(QtCore.QRect(49, 20, 1011, 631))
         self.stackedWidget.setObjectName("stackedWidget")
         self.page = QtWidgets.QWidget()
         self.page.setObjectName("page")
         self.groupBox = QtWidgets.QGroupBox(parent=self.page)
-        self.groupBox.setGeometry(QtCore.QRect(0, 20, 951, 571))
+        self.groupBox.setGeometry(QtCore.QRect(0, 20, 951, 551))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.groupBox.setFont(font)
@@ -102,7 +102,7 @@ class Ui_MainWindow(object):
         self.page_2 = QtWidgets.QWidget()
         self.page_2.setObjectName("page_2")
         self.groupBox_2 = QtWidgets.QGroupBox(parent=self.page_2)
-        self.groupBox_2.setGeometry(QtCore.QRect(0, 20, 951, 571))
+        self.groupBox_2.setGeometry(QtCore.QRect(0, 20, 951, 551))
         font = QtGui.QFont()
         font.setPointSize(16)
         self.groupBox_2.setFont(font)
@@ -191,7 +191,7 @@ class Ui_MainWindow(object):
         self.menubar.addAction(self.menuAgenda.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
