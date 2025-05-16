@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1100</width>
+    <height>670</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1100</width>
+    <height>670</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>MS PGothic</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>49</x>
+      <y>40</y>
+      <width>1011</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>951</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>Cadastro de Tarefas</string>
+      </property>
+      <widget class="QWidget" name="formLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>911</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_cadastro_titulo">
+          <property name="text">
+           <string>Título da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="lineEdit_cadastro_titulo"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_cadastro_descricao">
+          <property name="text">
+           <string>Descrição da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QTextEdit" name="textEdit_cadastro_descricao"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_cadastro_inicio">
+          <property name="text">
+           <string>Início da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_cadastro_fim">
+          <property name="text">
+           <string>Fim da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QDateTimeEdit" name="dateTimeEdit_cadastro_inicio">
+          <property name="date">
+           <date>
+            <year>2025</year>
+            <month>5</month>
+            <day>14</day>
+           </date>
+          </property>
+          <property name="calendarPopup">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QDateTimeEdit" name="dateTimeEdit_cadastro_fim">
+          <property name="date">
+           <date>
+            <year>2025</year>
+            <month>5</month>
+            <day>14</day>
+           </date>
+          </property>
+          <property name="calendarPopup">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_cadastro_tipo">
+          <property name="text">
+           <string>Tipo da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QComboBox" name="comboBox_cadastro_tipo">
+          <item>
+           <property name="text">
+            <string>Reunião</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Médico</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Trabalho</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Lazer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Descanso</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_cadastro_status">
+          <property name="text">
+           <string>Status da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QComboBox" name="comboBox_cadastro_status">
+          <item>
+           <property name="text">
+            <string>Agendado</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Confirmado</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cancelado</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Reagendado</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_cadastro_urgencia">
+          <property name="text">
+           <string>Urgência da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QCheckBox" name="checkBox_cadastro">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="pushButto_limpar">
+       <property name="geometry">
+        <rect>
+         <x>792</x>
+         <y>490</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Limpar</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_ok">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>490</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ok</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>951</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>Visualização de Tarefas</string>
+      </property>
+      <widget class="QWidget" name="formLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>911</width>
+         <height>441</height>
+        </rect>
+       </property>
+       <layout class="QFormLayout" name="formLayout_2">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_visualizar_titulo">
+          <property name="text">
+           <string>Título da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_cadastro_descricao_2">
+          <property name="text">
+           <string>Descrição da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QTextEdit" name="textEdit_visualizar_descricao"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_cadastro_inicio_2">
+          <property name="text">
+           <string>Início da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_cadastro_fim_2">
+          <property name="text">
+           <string>Fim da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QDateTimeEdit" name="dateTimeEdit_visualizar_inicio">
+          <property name="date">
+           <date>
+            <year>2025</year>
+            <month>5</month>
+            <day>14</day>
+           </date>
+          </property>
+          <property name="calendarPopup">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QDateTimeEdit" name="dateTimeEdit_visualizar_fim">
+          <property name="date">
+           <date>
+            <year>2025</year>
+            <month>5</month>
+            <day>14</day>
+           </date>
+          </property>
+          <property name="calendarPopup">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_cadastro_tipo_2">
+          <property name="text">
+           <string>Tipo da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QComboBox" name="comboBox_visualizar_tipo">
+          <item>
+           <property name="text">
+            <string>Reunião</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Médico</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Trabalho</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Lazer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Descanso</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_cadastro_status_2">
+          <property name="text">
+           <string>Status da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QComboBox" name="comboBox_visualizar_status">
+          <item>
+           <property name="text">
+            <string>Agendado</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Confirmado</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Cancelado</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Reagendado</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_cadastro_urgencia_2">
+          <property name="text">
+           <string>Urgência da Tarefa</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QCheckBox" name="checkBox_visualizar">
+          <property name="text">
+           <string>CheckBox</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="comboBox_visualizar_titulo"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="pushButton_atualizar">
+       <property name="geometry">
+        <rect>
+         <x>792</x>
+         <y>490</y>
+         <width>141</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Atualizar</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAgenda">
+    <property name="title">
+     <string>Agenda</string>
+    </property>
+    <addaction name="actionCadastrar"/>
+    <addaction name="actionVisualizar"/>
+   </widget>
+   <addaction name="menuAgenda"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCadastrar">
+   <property name="text">
+    <string>Cadastrar</string>
+   </property>
+  </action>
+  <action name="actionVisualizar">
+   <property name="text">
+    <string>Visualizar</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
