@@ -1,12 +1,12 @@
 self.lista_compromissos = [
-    ["Reunião de Projeto", "Discussão sobre o andamento do projeto X", "10/05/2025 09:00", "10/05/2025 11:00", "Reunião", "Agendado", True],
-    ["Consulta Médica Sexta", "Consulta de rotina com o Dr. Silva", "12/05/2025 14:00", "12/05/2025 15:00", "Médico", "Confirmado", False],
-    ["Trabalho de Grupo", "Reunião para entrega do trabalho final", "13/05/2025 10:00", "13/05/2025 12:00", "Trabalho", "Agendado", True],
-    ["Jogo de Futebol", "Partida de futebol com os amigos", "14/05/2025 18:00", "14/05/2025 20:00", "Lazer", "Agendado", False],
-    ["Descanso", "Pausa para descansar e relaxar", "15/05/2025 13:00", "15/05/2025 15:00", "Descanso", "Confirmado", False],
-    ["Reunião de Vendas", "Apresentação de resultados para clientes", "16/05/2025 09:30", "16/05/2025 11:30", "Reunião", "Reagendado", True],
-    ["Consulta Médica Segunda", "Acompanhamento pós-cirúrgico", "17/05/2025 16:00", "17/05/2025 17:00", "Médico", "Agendado", False],
-    ["Projeto de Desenvolvimento", "Análise de novos requisitos para o projeto Y", "18/05/2025 14:00", "18/05/2025 16:00", "Trabalho", "Cancelado", True],
-    ["Viagem de Lazer", "Passeio para a praia no final de semana", "19/05/2025 08:00", "19/05/2025 20:00", "Lazer", "Confirmado", False],
-    ["Descanso", "Dia de descanso em casa", "20/05/2025 09:00", "20/05/2025 17:00", "Descanso", "Agendado", True]
+    "Reunião de Projeto", "Discussão sobre o andamento do projeto X", "10/05/2025 09:00", "10/05/2025 11:00", "Reunião", "Agendado", True,
+    "Consulta Médica Sexta", "Consulta de rotina com o Dr. Silva", "12/05/2025 14:00", "12/05/2025 15:00", "Médico", "Confirmado", False,
+    "Trabalho de Grupo", "Reunião para entrega do trabalho final", "13/05/2025 10:00", "13/05/2025 12:00", "Trabalho", "Agendado", True,
+    "Jogo de Futebol", "Partida de futebol com os amigos", "14/05/2025 18:00", "14/05/2025 20:00", "Lazer", "Agendado", False,
+    "Descanso", "Pausa para descansar e relaxar", "15/05/2025 13:00", "15/05/2025 15:00", "Descanso", "Confirmado", False,
+    "Reunião de Vendas", "Apresentação de resultados para clientes", "16/05/2025 09:30", "16/05/2025 11:30", "Reunião", "Reagendado", True,
+    "Consulta Médica Segunda", "Acompanhamento pós-cirúrgico", "17/05/2025 16:00", "17/05/2025 17:00", "Médico", "Agendado", False,
+    "Projeto de Desenvolvimento", "Análise de novos requisitos para o projeto Y", "18/05/2025 14:00", "18/05/2025 16:00", "Trabalho", "Cancelado", True,
+    "Viagem de Lazer", "Passeio para a praia no final de semana", "19/05/2025 08:00", "19/05/2025 20:00", "Lazer", "Confirmado", False,
+    "Descanso", "Dia de descanso em casa", "20/05/2025 09:00", "20/05/2025 17:00", "Descanso", "Agendado", True
 ]
